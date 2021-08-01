@@ -1,0 +1,10 @@
+Package: com.appknox.meta
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Appknox <engineering@appknox.com>
+Author: Appknox <engineering@appknox.com>
+Section: System
+Description: Meta installer Package
+Depends: mobilesubstrate, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl
+Name: Appknox Metapackage
+Tag: purpose::console, role::hacker
