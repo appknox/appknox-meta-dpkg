@@ -13,5 +13,8 @@ include $(THEOS_MAKE_PATH)/tool.mk
 
 ifeq ($(THEOS_PACKAGE_SCHEME),rootless)
 before-package::
-	$(ECHO_BEGIN)cp $(THEOS_LAYOUT_DIR)/DEBIAN/control-rootless $(THEOS_STAGING_DIR)/DEBIAN/control$(ECHO_END)
+	$(ECHO_NOTHING) mv $(THEOS_STAGING_DIR)/DEBIAN/control-rootless $(THEOS_STAGING_DIR)/DEBIAN/control$(ECHO_END)
+else
+before-package::
+	$(ECHO_NOTHING) rm $(THEOS_STAGING_DIR)/DEBIAN/control-rootless$(ECHO_END)
 endif
