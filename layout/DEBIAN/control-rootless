@@ -5,6 +5,6 @@ Maintainer: Appknox <engineering@appknox.com>
 Author: Appknox <engineering@appknox.com>
 Section: System
 Description: Meta installer Package
-Depends: preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), com.opa334.altlist
+Depends: preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), com.opa334.altlist
 Name: Appknox Metapackage
 Tag: purpose::console, role::hacker
