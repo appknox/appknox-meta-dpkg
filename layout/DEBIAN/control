@@ -1,10 +1,11 @@
 Package: com.appknox.meta
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Appknox <engineering@appknox.com>
 Author: Appknox <engineering@appknox.com>
 Section: System
 Description: Meta installer Package
-Depends: com.ex.substitute, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), libactivator (>=1.9.13)
+Depends: com.ex.substitute, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, libactivator (>=1.9.13)
+Recommends: me.jjolano.shadow (>=3.7.7)
 Name: Appknox Metapackage
 Tag: purpose::console, role::hacker
